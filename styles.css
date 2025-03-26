@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora, Montserrat, sans-serif;
+
+body {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.hero {
+  background: url("Header.png") no-repeat center center/cover;
+  color: white;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2em;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+.hero button {
+  background: white;
+  color: #5865f2;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.feature-text {
+  text-align: left;
+  width: 100%;
+}
+
+footer {
+  background:rgb(68, 68, 68);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+}
+
